@@ -11,3 +11,6 @@ export default new Router()
     },
     edge_function: './edge-functions/envvar.js'
   })
+  .post('/posthandler', {
+    edge_function: './edge-functions/posthandler.js'
+  })
